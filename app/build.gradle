@@ -12,7 +12,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "co.karpenko.zeelo"
+        applicationId "co.karpenko.alex"
         minSdk 21
         targetSdk 31
         versionCode 1

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="co.karpenko.zeelo">
+    package="co.karpenko.alex">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".App"
+        android:name="co.karpenko.alex.App"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -13,11 +13,11 @@
         android:theme="@style/Theme.AppCompat.Light"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".presentation.books_details.BookDetailsActivity"
+            android:name="co.karpenko.alex.presentation.books_details.BookDetailsActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name=".presentation.books.BooksActivity"
+            android:name="co.karpenko.alex.presentation.books.BooksActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
